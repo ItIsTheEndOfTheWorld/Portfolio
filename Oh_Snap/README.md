@@ -16,10 +16,9 @@ Files and their use
   - achievementsList.txt : list of all achievements
   
   "non-essential" folder:
-        - narrative.txt : written by one Caleb Ridings. incomplete but mostly implemented.
-        - sources.txt : lists out all of the different sources I used in coding the game
-        - speeds.txt : "research"; various speeds of people of various heights, measured in the same area by the same group of people.
-              Note: nothing in the game yet implements this, but developments will come.
+  - narrative.txt : written by one Caleb Ridings. incomplete but mostly implemented.
+  - sources.txt : lists out all of the different sources I used in coding the game
+  - speeds.txt : "research"; various speeds of people of various heights, measured in the same area by the same group of people. (Note: nothing in the game yet implements this, but developments will come.)
 
 
 
