@@ -1,8 +1,8 @@
 This game was developed by Lindsey Clark, Megan Curry, Emily Johnson, Ryan Kramer, Caleb Ridings, Tyler Unger, Kylee Willis, and it features the rampaging Mr. Davis.
 - Lead developer: Kylee Willis
-- Writers: Caleb Ridings, Kylee Willis
+- Primary writers: Caleb Ridings, Kylee Willis
 - Researchers: Lindsey Clark, Megan Curry, Kylee Willis
-- Developers: Lindsey Clark, Megan Curry, Emily Johnson, Ryan Kramer, Caleb Ridings, Tyler Unger, Kylee Willis
+- Writers and developers: Lindsey Clark, Megan Curry, Emily Johnson, Ryan Kramer, Caleb Ridings, Tyler Unger, Kylee Willis
 
 
 
