@@ -1,0 +1,13 @@
+colored text: 
+    https://en.wikipedia.org/wiki/ANSI_escape_code
+clear screen: 
+    https://stackoverflow.com/questions/18937058/clear-screen-in-shell/31871439
+        note: this is being run in a linux terminal, so the use of "clear" is necessary, as opposed to "cls"
+pacer test: 
+    https://en.wikipedia.org/wiki/Multi-stage_fitness_test
+tic-tac-toe:
+    https://github.com/bennett39/ttt-medium/blob/master/ttt.py
+writeLog:
+    https://stackoverflow.com/questions/5914627/prepend-line-to-beginning-of-a-file
+removeLine:
+    https://www.reddit.com/r/learnpython/comments/2emugh/how_do_i_delete_lines_in_a_text_file/
