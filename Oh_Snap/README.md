@@ -10,7 +10,7 @@ Files and their use
   - main.py : starts the game, picks character.
   - functions.py : holds functions used throughout the game, like movement or help. contains some gameplay, but generally holds the things that make the gameplay work.
   - rooms.py : holds the various rooms in the building immortalized in this game and contains a significant amount of actual gameplay
-  - tictactoe.py : tic-tac-toe game; used a minigame in a single room. SOURCE: https://github.com/bennett39/ttt-medium/blob/master/ttt.py
+  - tictactoe.py : tic-tac-toe game; used for a minigame in a single room. SOURCE: https://github.com/bennett39/ttt-medium/blob/master/ttt.py
   - log.txt : keeps a log of the moves the user makes
   - achievements.txt : list of the achievements the user has earned
   - achievementsList.txt : list of all achievements
