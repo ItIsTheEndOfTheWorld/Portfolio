@@ -326,7 +326,7 @@ def tiny(c, s, i, iI): #c is the current room, s is the string of rooms that you
                 elif "Soul" in each:
                     x += ["You use the Soul Stone. Davis gets his soul back, no longer feeling like he needs to display his depression by chasing students."]
             if len(x) == 6:
-                raw_input("Well, don't act like you didn't see this coming. Half the universe just evaporates along with the Might American Buffalo.\nMegan and Caleb should never have given Davis that Thanos...")
+                raw_input("Well, don't act like you didn't see this coming. Half the universe just evaporates along with the Mighty American Buffalo.\nMegan and Caleb should never have given Davis that Thanos...")
             elif len(x) == 0:
                 if "Thanos" in inv:
                     raw_input("Davis stares into Thanos' cold grey eyes. His legs begin to tremble and his shiny bald scalp begins dripping with sweat. He gives you one last glare before turning around and stomping back to his room.")
