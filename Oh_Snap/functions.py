@@ -6,11 +6,13 @@ from datetime import datetime as dt
 from datetime import timedelta as td
 from tictactoe import main
 
+#i'm leaving in all of our development comments. cheer.
+
 # QUESTION: ARE WE GOING TO HAVE DOORS BETWEEN ROOMS BE UNLOCKED? (like davis and jag den or dorsch and barnett)
 #no. just the ones that connect to the hallway
 #thank the gods this is gonna be long enough already
 
-if True: #hold initializations, but i wanted them smaller
+if True: #hold initializations. inside True because the platform I was working on allowed me to collapse it - i didn't have to see any of this code
     name = ""
     countHoF, countPlant = 0, 0 #number of times you've been in the hall of fame and have seen the plant respectively
     numLib = random.randint(0,3) #generates a number for the weather outside the library
@@ -18,16 +20,43 @@ if True: #hold initializations, but i wanted them smaller
     thanos = "" #thanos location; generated thanosAndCo
     inv = [] #inventory
     iInv = [] #internalInventory
-    pencils = [] #list of places where you've picked up a pencil; for my use, not the user
-    #powerups = [] #powerup locations, but i took them out because i didn't want to code them
+    pencils = [] #list of places where you've picked up a pencil; for dev use, not the user
+    #powerups = [] #powerup locations, but i took them out because i didn't want to code them. left in for future recoding
     stone = [] #stone locations
-    gotStones = [] #stone locations where the user has gotten the stone
+    gotStones = [] #stone locations where the user has gotten stones
     beginningTime = dt.now()
-    file = open("log.txt", "w+")
+    file = open("log.txt", "w+") #create the log file
     file.close()
-    teacher = "none" #dear gods i just dont wanna edit all the rooms again
+    teacher = "none" #dear gods i just dont wanna edit all the rooms again. setting this as default makes my life easier
 if True:
     allrooms = ['weight room', '010', '011', 'clinic', '406', '404', '403', '1018', '716', 'library office', '1015', '1000 female restroom', 'commons', '410', 'counselling office', '319', '318', 'library lab', '309', '400 female restroom', '312', '310', '316', 'library', '314', '115', '117', '111', '110', '113', '112', 'big gym', 'photography lab', 'concessions', '200 female restroom', '520', '1019', '1014', 'small gym', '1016', '1017', '1010', '1011', '1012', '1013', '308', 'pac lobby', 'gallery hall', 'commons female restroom', '300', '301', '302', '303', '304', 'below stage', '306', '100 restroom', '108', '109', "mathis's photography lab", '102', '103', '101', '106', '107', '104', '105', '519', '518', '1009', '1008', '1007', '1006', '1005', '515', '517', '516', '1000 male restroom', 'hall of fame', 'lecture hall', 'main office', '600 male restroom', '200 male restroom', 'kitchen', '400 male restroom', '317', 'teacher lounge', 'backstage', 'down male locker', '1020', '1022', 'pac', '605', '607', '603', '609', 'tech room', '320', '321', 'down female locker', '201', '200', '202', '204', 'commons male restroom', '003', '002', '001', '007', '006', '005', '004', '009', '008', 'up male locker', '1003', 'up female locker', '1001', 'equipment room', '600 female restroom', 'catwalk']
+
+    
+#FUNCTION LIST:
+#   aide - help function. lists most available commands (if not all - there are probably some hidden in specific rooms, hence the 
+#       "most", but i'm not sure)
+#   moveThereMoveWhere - determines all possible places the user can move
+#   move - determine where the user can move where they're trying to move
+#   other - determines if win conditions have been met, else prints all possible places user can move
+#   tiny - function that holds other functions and determines what needs to be used. also has fun commands!
+#   pencilDesk - for picking up pencils. also has the senate closet and power stone, as those are on a desk.
+#   turn - not yet implemented
+#   whoami - prints name
+#   inventory - prints user's inventory
+#   roomSpecificCommands - exactly what it says. don't bother reading this; just play the game.
+#   look - allows user to get a description of the current room. if thanos is in the room, you get thanos.
+#       again, don't... don't bother reading the code. it's a Whole Lot of description
+#   busted - deals with what happens when davis catches up to user. may not... actually be used, as i think
+#       it relies on turns, but i also used time somewhere, so maybe it relies on that.
+#   thanosAndCo - generates where thanos and powerups are. (powerups not yet implemented)
+#   stones - generates where all the stones that aren't power are.
+#   beginTime - registers time user began
+#   elapsed - determines elapsed time
+#   writeLog - writes to a file all the valid moves the user makes. was created because i cleared the screen
+#       and couldn't remember my previous moves
+#   removeLine - removes a line from the file
+
+
 
 def aide(c):   #general command set
     #aide as in aider for mes amis francais
