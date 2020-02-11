@@ -374,7 +374,7 @@ def tiny(c, s, i, iI): #c is the current room, s is the string of rooms that you
                 time.sleep(2)
                 raw_input("\nDavis shows up and begins listening. \"I swear I've heard this before,\" he remarks. You ignore him, as you should, and continue explaining.")
                 time.sleep(1)
-                raw_input("\nWhen you're finally done, Davis shakes his head and walks away, apparently unwilling to get into a nother discussion. Shame. You were winding up to talk\nabout literally any historical event he was willing to listen to.")
+                raw_input("\nWhen you're finally done, Davis shakes his head and walks away, apparently unwilling to get into another discussion. Shame. You were winding up to talk\nabout literally any historical event he was willing to listen to.")
             elif name == "jack" and m in ["play", "game", "ds"]:
                 print("\nYou whip your DS out of your pocket and begin playing Pokemon.")
                 time.sleep(2)
