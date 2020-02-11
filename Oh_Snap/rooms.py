@@ -5,11 +5,22 @@ import subprocess as sp #i'm unsure of why i imported this
 '''working title: oh snap
 title options: oh snap, infinity school, oh snap i'm late for infinity school, davis no'''
 
+#global variables. they make life easier - i don't have to use a veritable tonne of passing
 pencils = 0 #for pencils
 inventory = [pencils] #your stuff
 internalInventory = [] #stuff that the user shouldn't be able to see but which allows for conditions
 turns = 0 #won't be implemented for a while but exists
 name = "" #character name. this is for turns and character quirks
+
+#halls connect to rooms. they end in "00".
+#rooms are connected to halls. sometimes they'll have a hidden passage, but they don't connect to anything else, generally.
+
+#LOCATED IN THE FUNCTIONS FILE:
+#   tiny is a function that holds other functions. it determines what the user is trying to do and acts appropriately.
+#   aide is a help function. i could not use help, so i translated it! it has a list of nearly all available commands
+#   other is a function... well, it checks to see if you've won before listing all the possible rooms you can travel to
+#   user should not be able to access anything else - shouldn't even be able to access aide directly, but eh. see functions.py for 
+#       other functions.
 
 def hall000():
     global inventory, internalInventory, pencils, turns
