@@ -16,10 +16,10 @@ Files and their use
   - achievementsList.txt : list of all achievements
   
   "non-essential" folder:
-  - narrative.txt : written by one Caleb Ridings. incomplete but mostly implemented.
-  - sources.txt : lists out all of the different sources I used in coding the game
-  - speeds.txt : "research"; various speeds of people of various heights, measured in the same area by the same group of people. (Note: nothing in the game yet implements this, but developments will come.)
+  - narrative.txt : written by one Caleb Ridings, incomplete but mostly implemented.
+  - sources.txt : lists out all of the different sources used in coding the game.
+  - speeds.txt : "research"; various speeds of people of various heights, measured in the same area by the same group of people.
 
 
 
-The various python files have comments, though they're atrocious; generally, they were my or my team's notes on what we wanted to do or what we were thinking at the time. While it doesn't accurately display our organizational abilities or good habits, it reflects our thought processes. It will be cleaned up later, alongside that implementation of speeds.txt.
+The various python files have comments, though they're atrocious; generally, they were my or my team's notes on what we wanted to do or what we were thinking at the time. While it doesn't accurately display our organizational abilities or good habits, it reflects our thought processes.
