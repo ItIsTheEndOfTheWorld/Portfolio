@@ -1,6 +1,8 @@
 #Kylee Willis
 import random
 
+#Program that simulates a rock-paper-scissors-lizard-spock game.
+
 user_data = ["", 0, 0, 0] #user name, wins, losses, ties
 
 def menu():
